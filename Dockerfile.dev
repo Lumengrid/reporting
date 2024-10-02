@@ -1,0 +1,26 @@
+FROM node:16.14-alpine
+
+ENV HOME /var/www
+ENV LC_ALL en_US.UTF-8
+
+# To handle 'not get uid/gid'
+RUN npm config set unsafe-perm true
+
+RUN apk add --update --no-cache git openssh
+
+# Work dir
+WORKDIR $HOME/aamon
+
+# Copy all we have in current directory into container
+COPY . $HOME/aamon
+
+# Then clean up
+RUN rm -rf $HOME/aamon/node_modules
+
+# Install all dependencies
+RUN npm install
+
+EXPOSE 3000
+
+# Use nodemon to listen for changes
+CMD ["npm", "run", "start:dev"]

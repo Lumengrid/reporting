@@ -1,0 +1,30 @@
+SELECT 0
+
+HSET platform_main_config:common AAMON_DYNAMO_REGION eu-west-1
+
+HSET platform_main_config:common AAMON_ATHENA_REGION eu-west-1
+HSET platform_main_config:common AAMON_ATHENA_S3_PATH s3://bi-docebo-sandbox/athena_results
+HSET platform_main_config:common AAMON_ATHENA_S3_EXPORT_PATH s3://bi-docebo-sandbox/athena_exports
+
+
+HSET platform_main_config:common AAMON_S3_REGION eu-west-1
+HSET platform_main_config:common AAMON_S3_BUCKET bi-docebo-sandbox
+HSET platform_main_config:common AAMON_QUERY_BUILDER_TABLE custom_report_types
+
+HSET platform_main_config:common AAMON_SCHEDULATION_PRIVATE_KEY "{EDITME}"
+
+SELECT 10
+
+HSET dd-00002.bi.docebo.cloud aamon_dynamo_db_platform ''
+HSET dd-00002.bi.docebo.cloud aamon_athena_schema_name_override ''
+
+HSET dd-00002.bi.docebo.cloud aamon_csv_export_limit 2000000
+HSET dd-00002.bi.docebo.cloud aamon_xlx_export_limit 1000000
+HSET dd-00002.bi.docebo.cloud aamon_preview_export_limit 100
+
+HSET dd-00002.bi.docebo.cloud aamon_entity_users_limit 100
+HSET dd-00002.bi.docebo.cloud aamon_entity_groups_limit 50
+HSET dd-00002.bi.docebo.cloud aamon_entity_branches_limit 50
+
+HSET dd-00002.bi.docebo.cloud aamon_daily_refresh_tokens 1
+HSET dd-00002.bi.docebo.cloud aamon_monthly_refresh_tokens 31

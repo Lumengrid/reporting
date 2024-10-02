@@ -1,0 +1,33 @@
+SELECT 0
+
+HSET platform_main_config:common AAMON_DYNAMO_REGION us-east-1
+
+HSET platform_main_config:common AAMON_ATHENA_REGION us-east-1
+HSET platform_main_config:common AAMON_ATHENA_S3_PATH s3://aamon/athena_results
+HSET platform_main_config:common AAMON_ATHENA_S3_EXPORT_PATH s3://aamon/athena_exports
+
+
+HSET platform_main_config:common AAMON_S3_REGION us-east-1
+HSET platform_main_config:common AAMON_S3_BUCKET aamon
+HSET platform_main_config:common AAMON_QUERY_BUILDER_TABLE custom_report_types
+
+HSET platform_main_config:common AAMON_SCHEDULATION_PRIVATE_KEY "{EDITME}"
+
+SELECT 10
+
+HDEL hydra.docebosaas.com AAMON_DYNAMO_DB_PLATFORM
+HDEL hydra.docebosaas.com AAMON_ATHENA_SCHEMA_NAME_OVERRIDE
+
+HSET hydra.docebosaas.com aamon_dynamo_db_platform ''
+HSET hydra.docebosaas.com aamon_athena_schema_name_override ducati_docebosaas_com
+
+HSET hydra.docebosaas.com aamon_csv_export_limit 2000000
+HSET hydra.docebosaas.com aamon_xlx_export_limit 1000000
+HSET hydra.docebosaas.com aamon_preview_export_limit 100
+
+HSET hydra.docebosaas.com aamon_entity_users_limit 100
+HSET hydra.docebosaas.com aamon_entity_groups_limit 50
+HSET hydra.docebosaas.com aamon_entity_branches_limit 50
+
+HSET hydra.docebosaas.com aamon_daily_refresh_tokens 1
+HSET hydra.docebosaas.com aamon_monthly_refresh_tokens 31

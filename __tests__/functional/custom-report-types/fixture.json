@@ -1,0 +1,42 @@
+[
+  {
+    "authorId": 13024,
+    "creationDate": "1977-02-19 12:00:13",
+    "description": "description - 103",
+    "id": "04efcaac-7ea3-4749-8619-51fdb58615f4",
+    "name": "no change it",
+    "platform": "hydra.docebosaas.com",
+    "status": 1,
+    "deleted": false
+  },
+  {
+    "authorId": 13024,
+    "creationDate": "1977-02-19 12:00:13",
+    "description": "description - 103",
+    "id": "04efcaac-7ea4-4749-8619-51fdb58615f4",
+    "name": "no change it2",
+    "platform": "hydra.docebosaas.com",
+    "status": 1,
+    "deleted": false
+  },
+  {
+    "authorId": 13024,
+    "creationDate": "1977-02-19 12:00:12",
+    "description": "description",
+    "id": "04efcaac-7ea3-4749-8619-51fdb58615f3",
+    "name": "name",
+    "platform": "hydra.docebosaas.com",
+    "status": 1,
+    "deleted": true
+  },
+  {
+    "authorId": 13024,
+    "creationDate": "1977-02-19 12:00:12",
+    "description": "description",
+    "id": "04efcaac-7ea3-4749-8619-52fdb58615f3",
+    "name": "test functional",
+    "platform": "hydra.docebosaas.com",
+    "status": 1,
+    "deleted": false
+  }
+]

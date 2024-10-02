@@ -1,0 +1,34 @@
+FROM node:16.14-alpine
+
+ENV HOME /var/www
+ENV LC_ALL en_US.UTF-8
+ARG branch
+ARG ID_RSA
+
+RUN apk add --update --no-cache git openssh-client ca-certificates && rm -rf /var/cache/apk/* ; \
+    mkdir /root/.ssh && \
+    chmod 0700 /root/.ssh ; \
+    echo "${ID_RSA}" > /root/.ssh/id_rsa && \
+    ssh-keyscan -H git.docebo.info >> /root/.ssh/known_hosts ;\
+    chmod 600 /root/.ssh/id_rsa && \
+    sed -i 's/ -/-/g' /root/.ssh/id_rsa ; \
+    git clone --branch=$branch git@git.docebo.info:learning-analytics/aamon.git /var/www/aamon
+
+
+# Work dir
+WORKDIR $HOME/aamon
+
+# Then clean up
+RUN rm -rf $HOME/aamon/node_modules
+
+ARG TOKEN
+# Install all dependencies
+RUN npm cache clean --force \
+   && npm config set @docebo:registry https://gitlab.com/api/v4/packages/npm/ \
+   && npm config set '//gitlab.com/api/v4/packages/npm/:_authToken' $TOKEN \
+   && npm install
+
+EXPOSE 3000
+
+# Use nodemon to listen for changes
+CMD ["npm", "run", "prod"]

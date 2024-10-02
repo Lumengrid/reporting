@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "target": "es2016",                       /* Specify ECMAScript target version: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', 'ES2017','ES2018' or 'ESNEXT'. */
+    "module": "commonjs",                     /* Specify module code generation: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', or 'ESNext'. */
+    "outDir": "./build",                           /* Redirect output structure to the directory. */
+    "downlevelIteration": true,            /* Provide full support for iterables in 'for-of', spread, and destructuring when targeting 'ES5' or 'ES3'. */
+    "strict": true,                           /* Enable all strict type-checking options. */
+    "noImplicitAny": false,                   /* Raise error on expressions and declarations with an implied 'any' type. */
+    "strictNullChecks": false,                /* Enable strict null checks. */
+    "baseUrl": ".",                           /* Base directory to resolve non-absolute module names. */
+    "paths": {
+      "*": ["types/*"],
+      "@aamon/exceptions/*": ["src/exceptions/*"]
+    },                                        /* A series of entries which re-map imports to lookup locations relative to the 'baseUrl'. */
+    "esModuleInterop": true,                  /* Enables emit interoperability between CommonJS and ES Modules via creation of namespace objects for all imports. Implies 'allowSyntheticDefaultImports'. */
+    "resolveJsonModule": true,
+    "lib": [
+      "dom",
+      "es6",
+      "es2017",
+      "es2018",
+      "es2020",
+      "esnext"
+    ],
+    "types": ["node", "jest"]
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/swagger.json"
+  ],
+  "exclude": [
+    "node_modules/",
+    "src/**/*.spec.ts",
+    "test/**/*.spec.ts"
+  ]
+}

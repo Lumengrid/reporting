@@ -1,0 +1,526 @@
+[
+  {
+    "lastEditBy": {
+      "idUser": 13888,
+      "firstname": "Staff",
+      "lastname": "Support",
+      "username": "staff.support",
+      "avatar": null
+    },
+    "lastEdit": "2020-04-09 08:45:50",
+    "completionDate": {
+      "days": 1,
+      "from": null,
+      "to": null,
+      "type": null,
+      "any": true,
+      "operator": null
+    },
+    "visibility": {
+      "groups": [
+        {
+          "id": 1
+        }
+      ],
+      "type": 3,
+      "branches": [],
+      "users": []
+    },
+    "fields": [
+      "user_userid",
+      "course_name"
+    ],
+    "conditions": "allConditions",
+    "sortingOptions": {
+      "orderBy": "asc",
+      "selector": "default",
+      "selectedField": "user_userid"
+    },
+    "enrollment": {
+      "notStarted": true,
+      "completed": true,
+      "inProgress": true,
+      "waitingList": true
+    },
+    "courseExpirationDate": {
+      "days": 1,
+      "from": null,
+      "to": null,
+      "type": null,
+      "any": true,
+      "operator": null
+    },
+    "author": 13888,
+    "enrollmentDate": {
+      "days": 1,
+      "from": null,
+      "to": null,
+      "type": null,
+      "any": true,
+      "operator": null
+    },
+    "loginRequired": true,
+    "creationDate": "2020-04-09 08:45:48",
+    "courses": {
+      "all": true,
+      "courses": [],
+      "categories": [],
+      "entitiesLimits": {},
+      "courseType": 0
+    },
+    "planning": {
+      "active": false,
+      "option": {
+        "isPaused": false,
+        "every": 1,
+        "recipients": [],
+        "timeFrame": "days",
+        "scheduleFrom": null
+      }
+    },
+    "learningPlans": {
+      "all": true,
+      "learningPlans": []
+    },
+    "idReport": "01140785-2f65-4176-a054-a9c92e97cee6",
+    "isCustomColumnSortingEnabled": false,
+    "deleted": false,
+    "platform": "hydra.docebosaas.com",
+    "timezone": "Europe/Rome",
+    "description": "This report is created automatically by a functional test! You should never see this!",
+    "users": {
+      "all": true,
+      "hideDeactivated": true,
+      "groups": [],
+      "entitiesLimits": {
+        "usersLimit": 100,
+        "groupsLimit": 50,
+        "branchesLimit": 50
+      },
+      "branches": [],
+      "showOnlyLearners": true,
+      "users": []
+    },
+    "standard": false,
+    "type": "Users - Courses",
+    "title": "Functional test report"
+  },
+  {
+    "lastEditBy": {
+      "idUser": 13888,
+      "firstname": "Staff",
+      "lastname": "Support",
+      "username": "staff.support",
+      "avatar": null
+    },
+    "lastEdit": "2020-04-09 08:45:55",
+    "completionDate": {
+      "days": 1,
+      "from": null,
+      "to": null,
+      "type": null,
+      "any": true,
+      "operator": null
+    },
+    "visibility": {
+      "groups": [],
+      "type": 3,
+      "branches": [],
+      "users": [
+        {
+          "id": 1039
+        }
+      ]
+    },
+    "fields": [
+      "user_userid",
+      "course_name"
+    ],
+    "conditions": "allConditions",
+    "sortingOptions": {
+      "orderBy": "asc",
+      "selector": "default",
+      "selectedField": "user_userid"
+    },
+    "enrollment": {
+      "notStarted": true,
+      "completed": true,
+      "inProgress": true,
+      "waitingList": true
+    },
+    "courseExpirationDate": {
+      "days": 1,
+      "from": null,
+      "to": null,
+      "type": null,
+      "any": true,
+      "operator": null
+    },
+    "author": 13888,
+    "enrollmentDate": {
+      "days": 1,
+      "from": null,
+      "to": null,
+      "type": null,
+      "any": true,
+      "operator": null
+    },
+    "loginRequired": true,
+    "creationDate": "2020-04-09 08:45:53",
+    "courses": {
+      "all": true,
+      "courses": [],
+      "categories": [],
+      "entitiesLimits": {}
+    },
+    "planning": {
+      "active": false,
+      "option": {
+        "isPaused": false,
+        "every": 1,
+        "recipients": [],
+        "timeFrame": "days",
+        "scheduleFrom": null
+      }
+    },
+    "learningPlans": {
+      "all": true,
+      "learningPlans": []
+    },
+    "idReport": "95d560e5-b2db-49e3-adf9-9734dfe7284d",
+    "isCustomColumnSortingEnabled": false,
+    "deleted": false,
+    "platform": "hydra.docebosaas.com",
+    "timezone": "Europe/Rome",
+    "description": "This report is created automatically by a functional test! You should never see this!",
+    "users": {
+      "all": true,
+      "hideDeactivated": true,
+      "groups": [],
+      "entitiesLimits": {
+        "usersLimit": 100,
+        "groupsLimit": 50,
+        "branchesLimit": 50
+      },
+      "branches": [],
+      "showOnlyLearners": true,
+      "users": []
+    },
+    "standard": false,
+    "type": "Users - Courses",
+    "title": "Functional test report"
+  },
+  {
+    "lastEditBy": {
+      "idUser": 13888,
+      "firstname": "Staff",
+      "lastname": "Support",
+      "username": "staff.support",
+      "avatar": null
+    },
+    "lastEdit": "2020-04-09 08:45:58",
+    "completionDate": {
+      "days": 1,
+      "from": null,
+      "to": null,
+      "type": null,
+      "any": true,
+      "operator": null
+    },
+    "visibility": {
+      "groups": [],
+      "type": 3,
+      "branches": [
+        {
+          "id": 2990,
+          "descendants": true
+        }
+      ],
+      "users": []
+    },
+    "fields": [
+      "user_userid",
+      "course_name"
+    ],
+    "conditions": "allConditions",
+    "sortingOptions": {
+      "orderBy": "asc",
+      "selector": "default",
+      "selectedField": "user_userid"
+    },
+    "enrollment": {
+      "notStarted": true,
+      "completed": true,
+      "inProgress": true,
+      "waitingList": true
+    },
+    "courseExpirationDate": {
+      "days": 1,
+      "from": null,
+      "to": null,
+      "type": null,
+      "any": true,
+      "operator": null
+    },
+    "author": 13888,
+    "enrollmentDate": {
+      "days": 1,
+      "from": null,
+      "to": null,
+      "type": null,
+      "any": true,
+      "operator": null
+    },
+    "loginRequired": true,
+    "creationDate": "2020-04-09 08:45:57",
+    "courses": {
+      "all": true,
+      "courses": [],
+      "categories": [],
+      "entitiesLimits": {}
+    },
+    "planning": {
+      "active": false,
+      "option": {
+        "isPaused": false,
+        "every": 1,
+        "recipients": [],
+        "timeFrame": "days",
+        "scheduleFrom": null
+      }
+    },
+    "learningPlans": {
+      "all": true,
+      "learningPlans": []
+    },
+    "idReport": "7d0e2c20-5955-4641-bc08-f10d138b3fa3",
+    "isCustomColumnSortingEnabled": false,
+    "deleted": false,
+    "platform": "hydra.docebosaas.com",
+    "timezone": "Europe/Rome",
+    "description": "This report is created automatically by a functional test! You should never see this!",
+    "users": {
+      "all": true,
+      "hideDeactivated": true,
+      "groups": [],
+      "entitiesLimits": {
+        "usersLimit": 100,
+        "groupsLimit": 50,
+        "branchesLimit": 50
+      },
+      "branches": [],
+      "showOnlyLearners": true,
+      "users": []
+    },
+    "standard": false,
+    "type": "Users - Courses",
+    "title": "Functional test report"
+  },
+  {
+    "lastEditBy": {
+      "idUser": 13888,
+      "firstname": "Staff",
+      "lastname": "Support",
+      "username": "staff.support",
+      "avatar": null
+    },
+    "lastEdit": "2020-04-09 08:46:01",
+    "completionDate": {
+      "days": 1,
+      "from": null,
+      "to": null,
+      "type": null,
+      "any": true,
+      "operator": null
+    },
+    "visibility": {
+      "groups": [],
+      "type": 3,
+      "branches": [
+        {
+          "id": 2990,
+          "descendants": false
+        }
+      ],
+      "users": []
+    },
+    "fields": [
+      "user_userid",
+      "course_name"
+    ],
+    "conditions": "allConditions",
+    "sortingOptions": {
+      "orderBy": "asc",
+      "selector": "default",
+      "selectedField": "user_userid"
+    },
+    "enrollment": {
+      "notStarted": true,
+      "completed": true,
+      "inProgress": true,
+      "waitingList": true
+    },
+    "courseExpirationDate": {
+      "days": 1,
+      "from": null,
+      "to": null,
+      "type": null,
+      "any": true,
+      "operator": null
+    },
+    "author": 13888,
+    "enrollmentDate": {
+      "days": 1,
+      "from": null,
+      "to": null,
+      "type": null,
+      "any": true,
+      "operator": null
+    },
+    "loginRequired": true,
+    "creationDate": "2020-04-09 08:46:00",
+    "courses": {
+      "all": true,
+      "courses": [],
+      "categories": [],
+      "entitiesLimits": {}
+    },
+    "planning": {
+      "active": false,
+      "option": {
+        "isPaused": false,
+        "every": 1,
+        "recipients": [],
+        "timeFrame": "days",
+        "scheduleFrom": null
+      }
+    },
+    "learningPlans": {
+      "all": true,
+      "learningPlans": []
+    },
+    "idReport": "0b374238-26fd-4663-af2a-8f572441b4cd",
+    "isCustomColumnSortingEnabled": false,
+    "deleted": false,
+    "platform": "hydra.docebosaas.com",
+    "timezone": "Europe/Rome",
+    "description": "This report is created automatically by a functional test! You should never see this!",
+    "users": {
+      "all": true,
+      "hideDeactivated": true,
+      "groups": [],
+      "entitiesLimits": {
+        "usersLimit": 100,
+        "groupsLimit": 50,
+        "branchesLimit": 50
+      },
+      "branches": [],
+      "showOnlyLearners": true,
+      "users": []
+    },
+    "standard": false,
+    "type": "Users - Courses",
+    "title": "Functional test report"
+  },
+  {
+    "lastEditBy": {
+      "idUser": 13888,
+      "firstname": "Staff",
+      "lastname": "Support",
+      "username": "staff.support",
+      "avatar": null
+    },
+    "lastEdit": "2020-04-09 08:46:04",
+    "completionDate": {
+      "days": 1,
+      "from": null,
+      "to": null,
+      "type": null,
+      "any": true,
+      "operator": null
+    },
+    "visibility": {
+      "groups": [],
+      "type": 1,
+      "branches": [],
+      "users": []
+    },
+    "fields": [
+      "user_userid",
+      "course_name"
+    ],
+    "conditions": "allConditions",
+    "sortingOptions": {
+      "orderBy": "asc",
+      "selector": "default",
+      "selectedField": "user_userid"
+    },
+    "enrollment": {
+      "notStarted": true,
+      "completed": true,
+      "inProgress": true,
+      "waitingList": true
+    },
+    "courseExpirationDate": {
+      "days": 1,
+      "from": null,
+      "to": null,
+      "type": null,
+      "any": true,
+      "operator": null
+    },
+    "author": 1039,
+    "enrollmentDate": {
+      "days": 1,
+      "from": null,
+      "to": null,
+      "type": null,
+      "any": true,
+      "operator": null
+    },
+    "loginRequired": true,
+    "creationDate": "2020-04-09 08:46:03",
+    "courses": {
+      "all": true,
+      "courses": [],
+      "categories": [],
+      "entitiesLimits": {}
+    },
+    "planning": {
+      "active": false,
+      "option": {
+        "isPaused": false,
+        "every": 1,
+        "recipients": [],
+        "timeFrame": "days",
+        "scheduleFrom": null
+      }
+    },
+    "learningPlans": {
+      "all": true,
+      "learningPlans": []
+    },
+    "idReport": "9c44d922-94d3-4c51-b07e-575e76235608",
+    "isCustomColumnSortingEnabled": false,
+    "deleted": false,
+    "platform": "hydra.docebosaas.com",
+    "timezone": "Europe/Rome",
+    "description": "This report is created automatically by a functional test! You should never see this!",
+    "users": {
+      "all": true,
+      "hideDeactivated": true,
+      "groups": [],
+      "entitiesLimits": {
+        "usersLimit": 100,
+        "groupsLimit": 50,
+        "branchesLimit": 50
+      },
+      "branches": [],
+      "showOnlyLearners": true,
+      "users": []
+    },
+    "standard": false,
+    "type": "Users - Courses",
+    "title": "Functional test report"
+  }
+]
